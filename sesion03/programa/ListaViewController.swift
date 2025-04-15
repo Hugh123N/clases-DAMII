@@ -10,14 +10,15 @@ import UIKit
 class ListaViewController: UIViewController, UITableViewController, UITableViewDataSource {
     
     
+    @IBOutlet weak var tvLenguajes: UITableView!
     let items = ["Java", "C#", "JavaScript", "Python", "Swift", "Kotlin"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        tableView.dataSource = self
-        tableView.delegate= self
-        tableView.register(IUTableViewCell.self,    forCellResourceIdentifier: "cellsIdentifier")
+        tvLenguajes.dataSource = self
+        tvLenguajes.delegate = self
+        tvLenguajes.register(IUTableViewCell.self,    forCellResourceIdentifier: "cellsIdentifier")
         
      }
     

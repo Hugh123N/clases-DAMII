@@ -67,6 +67,9 @@
                             <constraint firstItem="wd9-Ke-aZ7" firstAttribute="bottom" secondItem="o0q-UL-Vwm" secondAttribute="bottom" id="vZS-iX-Vc7"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="tvLenguajes" destination="o0q-UL-Vwm" id="Tu8-tj-mOB"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="BB4-8M-mwy" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
